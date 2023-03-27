@@ -1,0 +1,109 @@
+.app {
+    text-align: center;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 30px;
+    margin: 30px;
+}
+
+.container-border{
+    box-shadow: 6px 6px 6px rgb(209, 209, 209);
+    background-color: rgba(226, 242, 255, 0.644);
+    border-radius: 15px;
+    height: 400px;
+    padding: 20px;
+}
+
+.container-image{
+    border: solid 3px blueviolet;
+    border-radius: 50px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.container-button{
+    width: 100px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.button{
+    box-shadow: 6px 6px 6px rgb(209, 209, 209);
+    border-radius: 10px;
+    height: 440px;
+    border: solid 1px rgb(192, 192, 192);
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.name{
+    text-align: center;
+    color: darkblue;
+    font-size: x-large;
+}
+
+.employment{
+    text-align: center;
+}
+
+.profile-button{
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: rgb(0, 103, 199);
+    background-color:rgba(0, 103, 199, 0.048);
+    cursor: pointer;
+    width: 150px;
+    font-size: 110%;
+    border: solid 1px rgb(0, 103, 199);
+}
+
+.profile-button:hover{
+    border-color: rgb(63, 166, 250);
+    background-color: rgb(63, 166, 250);
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    font-size: 110%;
+}
+
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-details{
+    display: flex;
+    justify-content: space-around;
+}
+.card-details span{
+    color: gray;
+}
+
+.logout-button{
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: #ff5722;
+    background-color:rgba(0, 103, 199, 0.048);
+    cursor: pointer;
+    width: 150px;
+    font-size: 100%;
+    border: solid 1px #ff5722;
+    margin-top: 0px;
+}
+
+.logout-button:hover{
+    border-color: #fc7248;
+    background-color:#fc7248;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    font-size: 100%;
+}
